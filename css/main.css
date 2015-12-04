@@ -1,0 +1,373 @@
+@import url(https://fonts.googleapis.com/css?family=Jura:400,300);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:700);
+html {
+    /*font-family: 'Jura', sans-serif;*/
+    font-family: 'Amatic SC', cursive;
+    background-color:#2D4343;
+    color:#CCFFCC; 
+    cursor:url("../images/pepeplease.png");
+}
+
+
+body {
+    margin:0px;
+    padding:0px;
+    font-size:20px;
+    font-weight:500;
+}
+
+html, body {
+    height:100%;
+}
+
+p {
+    margin:15px 0px;
+    line-height:20px;
+}
+
+a {
+    color:#CCFFFF;
+    text-decoration:none;
+}
+a:hover {
+    color:#FF0000;
+}
+figure {
+    margin:0px;
+    padding:0px;
+}
+
+/*** HEADER STYLES ***/
+
+#header {
+    padding:15px 0px;
+    position:relative;
+}
+#logo {
+    color:#99fdfd;
+    padding:15px;
+    text-decoration:none;
+}
+#logo:hover {
+    color:#2EB8E6;
+    text-decoration:none;
+}
+/*HEADER ENDING YO*/
+
+/*** NAV BAR CSS  ***/
+#menu {
+    position:absolute;
+    top:40px;
+    right:5%;
+}
+
+#menu li {
+    display:inline;    
+    margin:0px 10px;
+    font-weight:600;
+    text-align:center;
+}
+#menu li a:hover{
+    color:#2EB8E6;
+}
+#menu li:after {
+    content:"|";
+    color:rgb(0,255,255);
+    
+}
+.currentpage {
+    color:#2EB8E6;
+    text-decoration:none;
+    padding:5px;
+    
+}
+.navbuttons {
+    text-decoration:none;
+    color:#99fdfd;
+    padding:5px;
+}
+
+/*** NAV BAR CSS ENDING ***/
+
+/*BANNER SECTION*/
+#bannerhome {
+    border-top:3px solid #99fdfd;
+    padding:90px 0px;
+    background:url(../images/banner.JPG) no-repeat center #05141A;
+    background-size:cover;
+    overflow:hidden;
+}
+
+#bannerAbout {
+    border-top:3px solid #99fdfd;
+    padding:90px 0px;
+    background:url(../images/banner-about.jpg) no-repeat center #05141A;
+    background-size:cover;
+    overflow:scroll;
+}
+.bannertitle {
+    text-align:center;
+    color:#FFFFFF;
+    font-size:4em;
+    text-shadow:10px 10px 10px #000000;
+}
+.backgoundImage {
+ background:url(../images/jellybeans.jpg);   
+}
+.bannerbutton {
+    background-color:#99fdfd;
+    padding:10px;
+    color:#05141A;
+    text-decoration:none;
+    border-radius:20px 20px;
+    font-weight:700;
+    border: 3.4px solid ;
+    left:45%;
+    top:35%;
+    position:relative;
+}
+.bannerbutton:hover {
+     background-color:#05141A;
+     border:2px solid ;
+}
+
+/*BANNER ENDING YO*/
+/*MAIN BODY STARTING*/
+.mainwidth {
+    width:1200px;
+    margin:0px auto ;
+    overflow:hidden;
+}
+#main {
+    margin-bottom:25px;
+}
+.columnA, .columnB, .columnC {
+    width:384px;
+  
+}
+.columnA, .columnB {
+    float:left;
+    margin-right:23px;
+}
+.columnC {
+    float:left;
+    
+}
+.columnA h2, .columnB h2, .columnC h2 {
+    color:#99fdfd;
+    font-size:1.5em;
+    font-weight:900;
+    text-align:center;
+}
+
+/*.likeImage {*/
+/*    width:384px;*/
+/*    height:225px;*/
+/*    background-color:#05141A;*/
+/*}*/
+.likeImage span {
+    display:block;
+    font-size:1em;
+    text-align:center;
+    font-weight:700;
+    padding:18px 0px;
+    background-color:#99fdfd;
+    color:#05141a;
+}
+.columnA p, .columnB p, .columnC p {
+    text-align:justify;
+    padding:0px;
+}
+/* BUTTON STYLES */
+
+a.button, .button {
+    /*background-color:#99fdfd;*/
+    background-image:url(../images/pepehacker.gif);
+    padding:8px;
+    /*color:#FFFFFF;*/
+    color:#99fdfd;
+    text-decoration:none;
+    border-radius:20px 20px;
+    font-weight:900;
+    border: 3.4px solid ;
+    font-size:28px;
+    float:left;
+  
+
+}
+a.button:hover, .button:hover {
+    background-color:#05141A;
+    color:#FF0000;
+    border:2px solid ;
+    cursor:url(../images/pepeplease.png), auto;
+}
+.button2 {
+    /*background-color:#99fdfd;*/
+    background-image:url(../images/pepehacker.gif);
+    padding:8px;
+    /*color:#FFFFFF;*/
+    color:#99fdfd;
+    text-decoration:none;
+    border-radius:20px 20px;
+    font-weight:900;
+    border: 3.4px solid ;
+    font-size:12px;
+    float:left;
+  
+
+}
+.button2:hover {
+    background-color:#05141A;
+    color:#FF0000;
+    border:2px solid ;
+    cursor:url(../images/pepeplease.png), auto;
+}
+
+#bannerbutton {
+    width:120px;
+    margin:0px auto;
+}
+/*About Me Styles*/
+
+#shortbio {
+    color:#99fdfd
+}
+.alignLeft {
+    width:384px;
+    float:left;
+    margin-right:24px;
+    
+}
+.alignRight {
+    float:right;
+    width:792px;
+    margin-left:24px;
+    text-align:justify;
+}
+
+/*About Me Styles ENDING*/
+/*Footer*/
+footer {
+    clear:both;
+    margin-top:26px;
+    width:100%;
+    
+ 
+}
+.copyright {
+    overflow:hidden;
+    padding:20px 0px;
+    border-top:3px solid #99fdfd;
+    background-color:#05141a;
+}
+.social {
+    text-align:center;
+}
+footer p{
+    text-align:center;
+    font-size:24px;
+}
+footer p a{
+    color:#FF0000;
+    
+}
+footer p a:hover{
+    color:#CCFFFF;
+    
+}
+/*EXTRA STYLES*/
+.fa {
+    /*background-color:rgb(141,198,63);*/
+    border:3px solid #99fdfd;
+    border-radius:100%;
+    font-size:1.5em !important;
+    margin:15px;
+    color:#99fdfd;
+    height:28px;
+    width:28px;
+    padding:5px;
+    text-align:center;
+}
+.fa-twitter {
+    background-color:#55ACEE;
+}
+.fa-steam {
+    background-color:;
+}
+.fa-reddit {
+    background-color:#FF4600;
+}
+.fa-linkedin{
+    background-color:#0077b5;
+}
+/*TYPING GRAPH STUFF*/
+td {
+    text-align:center;
+}
+table {
+    border-radius:5px;
+   
+}
+th {
+    background-image:url(../images/tiedye.gif);
+    
+}
+tr:hover {
+    background-image:url(../images/tiedye.gif);;
+}
+#mydata {
+    margin:auto;
+    width:900px;
+}
+#myheader tr th {
+    background-color:#4086AA;
+    color:#FFF;
+    font-size:1.3em;
+    padding:5px 0px;
+    text-shadow:2px 1px #000;
+    
+}
+#groupdata {
+    margin:auto;
+    width:900px;
+}
+#groupheader{
+    background-color:#91C3DC;
+    color:#FFF;
+    font-size:1.3em;
+    padding:5px 0px;
+    text-shadow:2px 1px #000;
+}
+/*form*/
+form {
+    margin-bottom:75px;
+    
+}
+input {
+    border-radius:25px;
+    border:2px solid #000;
+    box-shadow:3px 2px ;
+    display:block;
+    
+}
+#asterisk {
+    font-weight:900;
+    color:#ff0000;
+}
+@media screen and (max-width:1024px) {
+    .mainwidth {
+        float:none;
+        width:auto;
+        margin:0px auto;
+        display:block;
+        
+    }
+    article h2, p, span {
+        text-align:justify;
+    }
+    
+}
+/*@media screen and (max-width:600px) {*/
+/*body{background-image:url("../images/getout.jpg");}*/
+
+/*}*/

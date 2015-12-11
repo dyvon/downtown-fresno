@@ -89,6 +89,19 @@ figure {
     color:#99fdfd;
     padding:5px;
 }
+.mre-mrt {
+    width:100%;
+}
+.mobileAside {
+    width:100%;
+    display:block;
+    
+}
+.mobileAbout {
+    width:auto;
+    display:block;
+    margin:25px 0px;
+}
 
 /*** NAV BAR CSS ENDING ***/
 
@@ -286,8 +299,8 @@ footer p a:hover{
     font-size:1.5em !important;
     margin:15px;
     color:#99fdfd;
-    height:28px;
-    width:28px;
+    height:58px;
+    width:58px;
     padding:5px;
     text-align:center;
 }
@@ -356,6 +369,13 @@ input {
 #asterisk {
     font-weight:900;
     color:#ff0000;
+}
+#wufoo-zvq42j30o4o6ti {
+    width:90%;
+    border-radius:6px;
+    background-color:#F1F1F1;
+    margin:20px auto;
+    border:4px solid #FF00FF;
 }
 @media screen and (max-width:1024px) {
     .mainwidth {

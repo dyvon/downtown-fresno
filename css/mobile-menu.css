@@ -73,6 +73,38 @@ TARGETING TABLET DEVICES BELOW
     nav > ul > li{
         margin:left;
     }
+      .mainwidth {
+        float:none;
+        width:auto;
+        margin:0px auto;
+        display:block;
+        
+    }
+    article h2, p, span {
+        text-align:justify;
+    }
+    .alignLeft {
+        display:none;
+        clear:none;
+    }
+    .alignRight {
+        float:none;
+        width:86%;
+        margin:5px auto;
+        clear:none;
+        display:block;
+    }
+    .columnA, .columnB, .columnC {
+        width:auto;
+        margin:1% auto;
+    }
+    .columnA h2, .columnB h2, .columnC h2 {
+        font-size:3em;
+    }
+    .mainwidth{
+        width:95%;
+        padding:20px;
+    }
     
     }
 

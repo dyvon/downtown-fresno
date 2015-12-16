@@ -35,10 +35,7 @@ a {
 a:hover {
     color:#FF0000;
 }
-figure {
-    margin:0px;
-    padding:0px;
-}
+
 
 /*** HEADER STYLES ***/
 
@@ -376,6 +373,21 @@ input {
     background-color:#F1F1F1;
     margin:20px auto;
     border:4px solid #FF00FF;
+}
+/*PHOTO GALLERY STYLES*/
+.topstack {
+    padding:5px;
+    float:left;
+    width:290px;
+    margin:0px;
+    
+}
+.bottomstack {
+    padding:5px;
+    float:left;
+    width:290px;
+    margin:0px;
+    
 }
 @media screen and (max-width:1024px) {
     .mainwidth {
